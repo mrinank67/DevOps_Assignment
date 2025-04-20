@@ -45,7 +45,7 @@ This will install dependencies, install Chromium inside the container, and set e
 
 ```bash
 docker run --rm \
-  -e SCRAPE_URL="https://example.com" \
+  -e SCRAPE_URL="https://exactspace.co" \
   puppeteer-scraper
 ```
 
@@ -53,7 +53,7 @@ docker run --rm \
 
 ```bash
 docker run --rm \
-  -e SCRAPE_URL="https://example.com" \
+  -e SCRAPE_URL="https://exactspace.co" \
   -v "$PWD:/app" \
   puppeteer-scraper
 ```
@@ -74,8 +74,8 @@ scraped_data.json
 
 ```json
 {
-  "title": "Example Domain",
-  "firstHeading": "Example Domain"
+  "title": "Title",
+  "firstHeading": "Heading"
 }
 ```
 
