@@ -1,5 +1,5 @@
 
-# 🕷️ Puppeteer Web Scraper
+# Puppeteer Web Scraper
 
 This is a simple web scraper built with `puppeteer-core` and `Node.js`. It navigates to a specified URL, extracts the page title and the first `<h1>` heading, and saves the data to a local JSON file.
 
@@ -7,7 +7,7 @@ The script is designed to be run inside a Docker container with Chromium install
 
 ---
 
-## 📋 Features
+## Features
 
 - Uses `puppeteer-core` (lightweight without bundled Chromium)
 - Scrapes:
@@ -18,7 +18,7 @@ The script is designed to be run inside a Docker container with Chromium install
 
 ---
 
-## 🧰 Prerequisites
+## Prerequisites
 
 Before using this project, ensure you have the following installed:
 
@@ -27,9 +27,9 @@ Before using this project, ensure you have the following installed:
 
 ---
 
-## 🐳 Run with Docker
+## Run with Docker
 
-### 1. 📦 Build the Docker Image
+### 1. Build the Docker Image
 
 ```bash
 docker build -t puppeteer-scraper .
@@ -39,7 +39,7 @@ This will install dependencies, install Chromium inside the container, and set e
 
 ---
 
-### 2. 🚀 Run the Scraper
+### 2. Run the Scraper
 
 #### Basic usage (output stays in container):
 
@@ -62,7 +62,7 @@ docker run --rm \
 
 ---
 
-## 🗂️ Output
+## Output
 
 After running the script, you'll get a file called:
 
@@ -81,7 +81,7 @@ scraped_data.json
 
 ---
 
-## 📝 Notes
+## Notes
 
 - The Chromium path is **hardcoded** in `scrape.js`. If you're modifying the Dockerfile or Chromium install path, make sure to update it there.
 - If you want to run the script locally without Docker, ensure:
@@ -91,15 +91,14 @@ scraped_data.json
 
 ---
 
-## 📄 License
+## License
 
 MIT
 
 ---
 
-## ✍️ Author
+## Author
 
 Created by Mrinank Raj.
-```
 
 ---
