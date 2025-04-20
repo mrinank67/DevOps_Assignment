@@ -1,4 +1,4 @@
-```markdown
+
 # 🕷️ Puppeteer Web Scraper
 
 This is a simple web scraper built with `puppeteer-core` and `Node.js`. It navigates to a specified URL, extracts the page title and the first `<h1>` heading, and saves the data to a local JSON file.
@@ -99,7 +99,7 @@ MIT
 
 ## ✍️ Author
 
-Created by [Your Name Here]
+Created by Mrinank Raj.
 ```
 
 ---
