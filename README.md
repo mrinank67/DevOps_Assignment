@@ -1,7 +1,3 @@
----
-
-### ✅ `README.md`
-
 ```markdown
 # Puppeteer Web Scraper
 
